@@ -79,6 +79,8 @@ while (iteration > 0):
 	# only for special cases that need additional data
 	new_X = torch.empty(0)
 	new_Y = torch.empty(0)
+
+	print('HERE')
 		
 	# print info
 	print(DATA_NAME)

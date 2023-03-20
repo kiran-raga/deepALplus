@@ -1,0 +1,19 @@
+dataset: MNIST
+AL strategy: MarginSampling
+number of labeled pool: 100
+number of unlabeled pool: 59900
+number of testing pool: 10000
+batch size: 100
+quota: 1000
+time of repeat experiments: 3
+Size of training set is 100, accuracy is 0.4001.
+Size of training set is 200, accuracy is 0.7436.
+Size of training set is 300, accuracy is 0.8718.
+Size of training set is 400, accuracy is 0.817.
+Size of training set is 500, accuracy is 0.932.
+Size of training set is 600, accuracy is 0.945.
+Size of training set is 700, accuracy is 0.9463.
+Size of training set is 800, accuracy is 0.9394.
+Size of training set is 900, accuracy is 0.855.
+Size of training set is 1000, accuracy is 0.9638.
+Size of training set is 1100, accuracy is 0.9494.

@@ -1,0 +1,9 @@
+HERE
+MNIST
+RANDOM SEED 4666
+AdversarialBIM
+Round 0
+testing accuracy 0.6347
+
+
+Round 1

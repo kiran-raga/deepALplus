@@ -1,0 +1,13 @@
+HERE
+MNIST
+RANDOM SEED 4666
+VAAL
+Round 0
+testing accuracy 0.6313
+
+
+Round 1
+testing accuracy 0.6776
+
+
+Round 2

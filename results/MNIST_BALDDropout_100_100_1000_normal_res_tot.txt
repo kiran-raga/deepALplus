@@ -1,0 +1,13 @@
+dataset: MNIST
+AL strategy: BALDDropout
+number of labeled pool: 100
+number of unlabeled pool: 59900
+number of testing pool: 10000
+batch size: 100
+quota: 1000
+time of repeat experiments: 3
+0: 0.853
+1: 0.839
+2: 0.859
+mean acc: 0.8503. std dev acc: 0.0084
+mean time: 238.3333. std dev acc: 3.3993

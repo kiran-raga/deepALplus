@@ -1,0 +1,192 @@
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.6624
+
+
+Round 1
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.6629
+
+
+Round 1
+MNIST
+RANDOM SEED 4666
+MarginSampling
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.6473
+
+
+Round 1
+HERE
+MNIST
+RANDOM SEED 4666
+MarginSampling
+HERE
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.6545
+
+
+Round 1
+testing accuracy 0.8685
+
+
+Round 2
+testing accuracy 0.8936
+
+
+Round 3
+testing accuracy 0.8035
+
+
+Round 4
+testing accuracy 0.938
+
+
+Round 5
+testing accuracy 0.9514
+
+
+Round 6
+testing accuracy 0.9632
+
+
+Round 7
+testing accuracy 0.9608
+
+
+Round 8
+testing accuracy 0.8777
+
+
+Round 9
+testing accuracy 0.9734
+
+
+Round 10
+testing accuracy 0.9421
+
+
+SEED 4666
+MarginSampling
+[0.6545 0.8685 0.8936 0.8035 0.938  0.9514 0.9632 0.9608 0.8777 0.9734
+ 0.9421]
+HERE
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.419
+
+
+Round 1
+testing accuracy 0.7409
+
+
+Round 2
+testing accuracy 0.8851
+
+
+Round 3
+testing accuracy 0.7761
+
+
+Round 4
+testing accuracy 0.9323
+
+
+Round 5
+testing accuracy 0.9496
+
+
+Round 6
+testing accuracy 0.921
+
+
+Round 7
+testing accuracy 0.9449
+
+
+Round 8
+testing accuracy 0.8621
+
+
+Round 9
+testing accuracy 0.9702
+
+
+Round 10
+testing accuracy 0.9613
+
+
+SEED 4666
+MarginSampling
+[0.419  0.7409 0.8851 0.7761 0.9323 0.9496 0.921  0.9449 0.8621 0.9702
+ 0.9613]
+HERE
+MNIST
+RANDOM SEED 4666
+MarginSampling
+Round 0
+testing accuracy 0.1267
+
+
+Round 1
+testing accuracy 0.6213
+
+
+Round 2
+testing accuracy 0.8368
+
+
+Round 3
+testing accuracy 0.8714
+
+
+Round 4
+testing accuracy 0.9256
+
+
+Round 5
+testing accuracy 0.934
+
+
+Round 6
+testing accuracy 0.9546
+
+
+Round 7
+testing accuracy 0.9124
+
+
+Round 8
+testing accuracy 0.8252
+
+
+Round 9
+testing accuracy 0.9477
+
+
+Round 10
+testing accuracy 0.9448
+
+
+SEED 4666
+MarginSampling
+[0.1267 0.6213 0.8368 0.8714 0.9256 0.934  0.9546 0.9124 0.8252 0.9477
+ 0.9448]
+0: 0.903
+1: 0.867
+2: 0.836
+mean AUBC(acc): 0.8687. std dev AUBC(acc): 0.0274
+mean time: 92.6667. std dev time: 12.9701

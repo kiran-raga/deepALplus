@@ -1,0 +1,13 @@
+dataset: MNIST
+AL strategy: LeastConfidence
+number of labeled pool: 100
+number of unlabeled pool: 59900
+number of testing pool: 10000
+batch size: 100
+quota: 1000
+time of repeat experiments: 3
+0: 0.801
+1: 0.839
+2: 0.861
+mean acc: 0.8337. std dev acc: 0.0248
+mean time: 148.0. std dev acc: 6.6833

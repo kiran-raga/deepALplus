@@ -1,0 +1,161 @@
+HERE
+MNIST
+RANDOM SEED 4666
+LossPredictionLoss
+Round 0
+testing accuracy 0.7101
+
+
+Round 1
+testing accuracy 0.8079
+
+
+Round 2
+testing accuracy 0.8324
+
+
+Round 3
+testing accuracy 0.8534
+
+
+Round 4
+testing accuracy 0.8943
+
+
+Round 5
+testing accuracy 0.9149
+
+
+Round 6
+testing accuracy 0.9236
+
+
+Round 7
+testing accuracy 0.9469
+
+
+Round 8
+testing accuracy 0.907
+
+
+Round 9
+testing accuracy 0.9582
+
+
+Round 10
+testing accuracy 0.9629
+
+
+SEED 4666
+LossPredictionLoss
+[0.7101 0.8079 0.8324 0.8534 0.8943 0.9149 0.9236 0.9469 0.907  0.9582
+ 0.9629]
+HERE
+MNIST
+RANDOM SEED 4666
+LossPredictionLoss
+Round 0
+testing accuracy 0.742
+
+
+Round 1
+testing accuracy 0.8198
+
+
+Round 2
+testing accuracy 0.7946
+
+
+Round 3
+testing accuracy 0.8394
+
+
+Round 4
+testing accuracy 0.8796
+
+
+Round 5
+testing accuracy 0.9155
+
+
+Round 6
+testing accuracy 0.9269
+
+
+Round 7
+testing accuracy 0.9256
+
+
+Round 8
+testing accuracy 0.9129
+
+
+Round 9
+testing accuracy 0.9516
+
+
+Round 10
+testing accuracy 0.9598
+
+
+SEED 4666
+LossPredictionLoss
+[0.742  0.8198 0.7946 0.8394 0.8796 0.9155 0.9269 0.9256 0.9129 0.9516
+ 0.9598]
+HERE
+MNIST
+RANDOM SEED 4666
+LossPredictionLoss
+Round 0
+testing accuracy 0.6971
+
+
+Round 1
+testing accuracy 0.7522
+
+
+Round 2
+testing accuracy 0.8462
+
+
+Round 3
+testing accuracy 0.8898
+
+
+Round 4
+testing accuracy 0.8872
+
+
+Round 5
+testing accuracy 0.885
+
+
+Round 6
+testing accuracy 0.91
+
+
+Round 7
+testing accuracy 0.9397
+
+
+Round 8
+testing accuracy 0.9188
+
+
+Round 9
+testing accuracy 0.958
+
+
+Round 10
+testing accuracy 0.9598
+
+
+SEED 4666
+LossPredictionLoss
+[0.6971 0.7522 0.8462 0.8898 0.8872 0.885  0.91   0.9397 0.9188 0.958
+ 0.9598]
+0: 0.888
+1: 0.882
+2: 0.882
+mean AUBC(acc): 0.884. std dev AUBC(acc): 0.0028
+mean time: 195.6667. std dev time: 4.4969

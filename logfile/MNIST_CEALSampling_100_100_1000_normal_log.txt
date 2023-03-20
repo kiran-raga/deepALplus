@@ -1,0 +1,20 @@
+HERE
+MNIST
+RANDOM SEED 4666
+CEALSampling
+Round 0
+testing accuracy 0.6274
+
+
+Round 1
+No support mode.
+HERE
+MNIST
+RANDOM SEED 4666
+CEALSampling
+Round 0
+testing accuracy 0.6302
+
+
+Round 1
+No support mode.

@@ -1,0 +1,13 @@
+dataset: MNIST
+AL strategy: MarginSampling
+number of labeled pool: 100
+number of unlabeled pool: 59900
+number of testing pool: 10000
+batch size: 100
+quota: 1000
+time of repeat experiments: 3
+0: 0.903
+1: 0.867
+2: 0.836
+mean acc: 0.8687. std dev acc: 0.0274
+mean time: 92.6667. std dev acc: 12.9701

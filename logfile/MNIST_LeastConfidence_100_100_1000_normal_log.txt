@@ -1,0 +1,158 @@
+MNIST
+RANDOM SEED 4666
+LeastConfidence
+Round 0
+testing accuracy 0.6491
+
+
+Round 1
+testing accuracy 0.8298
+
+
+Round 2
+testing accuracy 0.6547
+
+
+Round 3
+testing accuracy 0.625
+
+
+Round 4
+testing accuracy 0.9163
+
+
+Round 5
+testing accuracy 0.7532
+
+
+Round 6
+testing accuracy 0.915
+
+
+Round 7
+testing accuracy 0.9575
+
+
+Round 8
+testing accuracy 0.7305
+
+
+Round 9
+testing accuracy 0.8735
+
+
+Round 10
+testing accuracy 0.8618
+
+
+SEED 4666
+LeastConfidence
+[0.6491 0.8298 0.6547 0.625  0.9163 0.7532 0.915  0.9575 0.7305 0.8735
+ 0.8618]
+MNIST
+RANDOM SEED 4666
+LeastConfidence
+Round 0
+testing accuracy 0.1441
+
+
+Round 1
+testing accuracy 0.7915
+
+
+Round 2
+testing accuracy 0.8907
+
+
+Round 3
+testing accuracy 0.7758
+
+
+Round 4
+testing accuracy 0.918
+
+
+Round 5
+testing accuracy 0.9436
+
+
+Round 6
+testing accuracy 0.7189
+
+
+Round 7
+testing accuracy 0.9301
+
+
+Round 8
+testing accuracy 0.92
+
+
+Round 9
+testing accuracy 0.9514
+
+
+Round 10
+testing accuracy 0.9534
+
+
+SEED 4666
+LeastConfidence
+[0.1441 0.7915 0.8907 0.7758 0.918  0.9436 0.7189 0.9301 0.92   0.9514
+ 0.9534]
+MNIST
+RANDOM SEED 4666
+LeastConfidence
+Round 0
+testing accuracy 0.2918
+
+
+Round 1
+testing accuracy 0.8043
+
+
+Round 2
+testing accuracy 0.8404
+
+
+Round 3
+testing accuracy 0.7789
+
+
+Round 4
+testing accuracy 0.9327
+
+
+Round 5
+testing accuracy 0.9443
+
+
+Round 6
+testing accuracy 0.953
+
+
+Round 7
+testing accuracy 0.9275
+
+
+Round 8
+testing accuracy 0.9533
+
+
+Round 9
+testing accuracy 0.8533
+
+
+Round 10
+testing accuracy 0.9504
+
+
+SEED 4666
+LeastConfidence
+[0.2918 0.8043 0.8404 0.7789 0.9327 0.9443 0.953  0.9275 0.9533 0.8533
+ 0.9504]
+0: 0.801
+1: 0.839
+2: 0.861
+mean AUBC(acc): 0.8337. std dev AUBC(acc): 0.0248
+mean time: 148.0. std dev time: 6.6833
