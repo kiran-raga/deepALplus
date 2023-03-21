@@ -361,15 +361,24 @@ def get_waterbirds(handler, args_task):
     return Data(X_tr, Y_tr, X_te, Y_te, handler, args_task)
 
 
+def get_image_directory(data_path, transform, train_test_split, handler, args_task):
+    dataset = datasets.ImageFolder(root=data_path, transform=transform)
+    
+    # split the dataset into train-test
+    indices = np.arange(len(dataset))
+    random.shuffle(indices)
+    split = int(np.floor(train_test_split * len(dataset)))
+    train_idx, test_idx = indices[split:], indices[:split]
 
+    X_train = [np.array(Image.open(dataset.imgs[i][0])) for i in train_idx]
+    X_test = [np.array(Image.open(dataset.imgs[i][0])) for i in test_idx]
 
+    Y_train = torch.from_numpy(np.array([dataset.imgs[i][1] for i in train_idx]))
+    Y_test = torch.from_numpy(np.array([dataset.imgs[i][1] for i in test_idx]))
 
-
-
-
-
-
-
-
-
-
+    return Data(X_train=X_train, 
+                Y_train=Y_train, 
+                X_test=X_test, 
+                Y_test=Y_test, 
+                handler=handler, 
+                args_task=args_task)

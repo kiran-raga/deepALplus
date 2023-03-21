@@ -1,15 +1,10 @@
 from torchvision import transforms
 from handlers import MNIST_Handler, SVHN_Handler, CIFAR10_Handler, openml_Handler, MNIST_Handler_joint, SVHN_Handler_joint, CIFAR10_Handler_joint
-from data import get_MNIST, get_FashionMNIST, get_EMNIST, get_SVHN, get_CIFAR10, get_CIFAR10_imb, get_CIFAR100,  \
-								get_TinyImageNet, get_openml, get_BreakHis, get_PneumoniaMNIST, get_waterbirds
-from nets import Net, MNIST_Net, CIFAR10_Net, openml_Net, PneumoniaMNIST_Net, waterbirds_Net, get_net_vae
+from data import *
+from nets import *
 from nets_lossprediction import Net_LPL, MNIST_Net_LPL, CIFAR10_Net_LPL, PneumoniaMNIST_Net_LPL, waterbirds_Net_LPL, get_lossnet
 from nets_waal import Net_WAAL, MNIST_Net_WAAL, CIFAR10_Net_WAAL, waterbirds_Net_WAAL, CLF_WAAL, Discriminator
-from query_strategies import RandomSampling, LeastConfidence, MarginSampling, EntropySampling, \
-								LeastConfidenceDropout, MarginSamplingDropout, EntropySamplingDropout, \
-								KMeansSampling, KMeansSamplingGPU, KCenterGreedy, KCenterGreedyPCA, BALDDropout,  \
-								AdversarialBIM, AdversarialDeepFool, VarRatio, MeanSTD, BadgeSampling, CEALSampling, \
-								LossPredictionLoss, VAAL, WAAL
+from query_strategies import *
 from parameters import *
 from torchvision import transforms
 import sys
@@ -85,7 +80,7 @@ def get_handler_joint(name):
 	else: 
 		raise NotImplementedError
 
-def get_dataset(name, args_task):
+def get_dataset(name, args_task, data_path=None, transform=None, train_test_split=0.8):
 	if name == 'MNIST':
 		return get_MNIST(get_handler(name), args_task)
 	elif name == 'MNIST_pretrain':
@@ -114,6 +109,12 @@ def get_dataset(name, args_task):
 		return get_waterbirds(get_handler(name), args_task)
 	elif name == 'waterbirds_pretrain':
 		return get_waterbirds(get_handler(name), args_task)
+	elif name == 'image_directory':
+		return get_image_directory(data_path=data_path,
+								   transform=transform,
+								   train_test_split=train_test_split,
+								   handler=get_handler(name),
+								   args_task=args_task)
 	else:
 		raise NotImplementedError
 
